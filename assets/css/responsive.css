@@ -1,0 +1,246 @@
+@media screen and (max-width: 1400px) {
+
+    .side-bar {
+        width: 180px;
+        padding: 40px 0px;
+        overflow: hidden;
+    }
+
+    .toggles a {
+        font-size: 14px;
+    }
+
+    .sketchfab-embed-wrapper iframe {
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Default CSS Start */
+
+    h2.title {
+        font-size: 34px;
+        line-height: normal;
+    }
+
+    body p {
+        font-size: 14px;
+    }
+
+    .space-pd {
+        padding: 40px 0;
+    }
+
+    /* Default CSS Start */
+
+    /* Header Start */
+    header {
+        background-color: #fff;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
+    .mobile-menu-container {
+        display: block;
+    }
+
+    .navbar-brand img {
+        max-width: 200px;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
+    .mobile-menu-container {
+        display: block;
+    }
+
+    .nav-wrapper {
+        padding: 15px 0;
+    }
+
+    .sub-menu {
+        flex: 0 0 100%;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding: 10px 0;
+        z-index: 888;
+        border-radius: 0;
+        border-bottom: none;
+        box-shadow: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .sub-menu li {
+        border: none !important;
+    }
+
+    .mobile-menu ul.nav li {
+        padding: 10px 0;
+        border-bottom: 1px solid #f26226;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        animation: fadeInRight 0.8s ease forwards;
+        animation-delay: 0.2s;
+        display: block;
+    }
+
+    @keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .mobile-menu ul.nav li:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(2) {
+        animation-delay: 0.3s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(3) {
+        animation-delay: 0.5s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(4) {
+        animation-delay: 0.7s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(5) {
+        animation-delay: 0.9s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(6) {
+        animation-delay: 1.1s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(7) {
+        animation-delay: 1.3s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(8) {
+        animation-delay: 1.5s;
+    }
+
+    .mobile-menu ul.nav li:nth-child(9) {
+        animation-delay: 1.7s;
+    }
+
+    .hamburger-icon.is-active:nth-child(1) {
+        top: 6px;
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .hamburger-icon.is-active:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-icon.is-active:nth-child(3) {
+        top: 14px;
+        width: 35px;
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    .rendering-page .container {
+        top: 60%;
+    }
+
+    ul.nav {
+        justify-content: center;
+    }
+
+    .mobile-menu ul.nav li:nth-child(8) {
+        display: none;
+    }
+    
+    .mobile-menu ul.nav li:nth-child(9) {
+        display: none;
+    }
+    
+    .mobile-menu ul.nav li:nth-child(10) {
+        display: none;
+    }
+    
+    .mobile-menu ul.nav li:nth-child(11) {
+        display: none;
+    }
+    
+    .mobile-menu ul.nav li:last-child {
+        display: none;
+    }
+
+    .banner-contact {
+        margin-top: 75px;
+    }
+
+    /* Header End */
+}
+
+@media (max-width: 768px) {
+    h1.main-heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .get-in-touch {
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .side-bar {
+        display: none;
+    }
+
+    ul.nav img {
+        width: 25px;
+        height: 25px;
+    }
+
+    ul.nav li a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+
+
+    .rendering-page {
+        margin-top: 30px;
+    }
+
+    .rendering-page .banner-img img {
+        height: 100%;
+    }
+
+    .rendering-page .container h5 {
+        font-size: 18px;
+    }
+
+    h1.main-heading {
+        font-size: 24px;
+        line-height: normal;
+    }
+
+    .rendering-page .container {
+        top: 50%;
+    }
+
+    .container.space-pd {
+        padding: 40px 15px;
+    }
+
+}
